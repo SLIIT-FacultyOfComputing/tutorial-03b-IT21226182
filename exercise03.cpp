@@ -5,6 +5,18 @@ using namespace std;
 int volume(int height, int width, int length);
 
 // 1. Define a structure called Box
+struct structbox1 {
+   int height;
+   int width;
+   int length;
+
+};
+struct structbox2 {
+   int height;
+   int width;
+   int length;
+
+};
 // have the integer data types Height, Width, Length
 
 // Do not change the main function
@@ -41,3 +53,6 @@ int main() {
 }
 
 // Implement the functions here
+int volume(int height, int width, int length){
+  
+}
